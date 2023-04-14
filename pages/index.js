@@ -73,33 +73,33 @@ function Home() {
          </section>
          {/*--------- experience---------------- */}
         <section >
-       <div data-aos="fade-down"  className='lg:flex gap-3 justify-center' >
+       <div  className='lg:flex gap-3 justify-center' >
        <div className='grid justify-center text-center shadow-lg h-100 m-5 p-10'>
             <div className=' p-3 w-10 bg-gray-400  rounded-md flex justify-center mt-4 mx-auto'><IoIosContact /></div>
             <h1 className=' text-xl font-bold mt-4'>2+ years experience</h1>
-            <p className='text-xl'>Most expereince furniture seller at your doorstep</p>
+            <p data-aos="fade-down" className='text-xl'>Most expereince furniture seller at your doorstep</p>
           </div>
           <div className=' grid justify-center text-center shadow-lg h-100 m-5 p-10'>
             <div className=' p-3 w-10 text-white rounded-md flex justify-center mt-4 mx-auto bg-blue-950'><SlCalender /></div>
             <h1 className='font-bold mt-4 text-xl'>2k+ Happy clients</h1>
-            <p className='text-xl'>A happy client is the pride at sheddyfurniture</p>
+            <p data-aos="fade-down" className='text-xl'>A happy client is the pride at sheddyfurniture</p>
           </div>
           <div className=' grid justify-center text-center shadow-lg h-100 m-5 p-10'>
             <div className=' p-3 w-10 bg-gray-400  rounded-md flex justify-center mt-4 mx-auto'><SlCalender  /></div>
             <h1 className='text-xl  font-bold mt-4'>500+ projects Finished</h1>
-            <p className='text-xl '>Finished more that 500 projects in your city</p>
+            <p  data-aos="fade-down" className='text-xl '>Finished more that 500 projects in your city</p>
           </div>
        </div>
        <div id='experience' className='lg:flex grid justify-center md:gap-3 m-auto mt-10'>
-            <Image  data-aos="fade-right" src={'/firstImg.jpg'} width={600} height={600} className='lg:m-0 rounded-xl h-100 w-100 object-cover lg:basis-1/2'/>
-            <div data-aos="fade-left" className='lg:text-start lg:mx-auto'>
-              <h3 className='mt-5 lg:text-lg'>our services</h3>
-              <h1 className='text-xl lg:text-2xl font-bold'>Feel the best experience with our sofa deals</h1>
+            <Image src={'/firstImg.jpg'} width={600} height={600} className='lg:m-0 rounded-xl h-100 w-100 object-cover lg:basis-1/2'/>
+            <div className='lg:text-start lg:mx-auto'>
+              <h3 data-aos="fade-right" className='mt-5 lg:text-lg'>our services</h3>
+              <h1 data-aos="fade-right" className='text-xl lg:text-2xl font-bold'>Feel the best experience with our sofa deals</h1>
              <div className='flex gap-4 mt-8 xl:text-2xl lg:pb-5'> 
               <div className=' shadow-lg border-4 border-white bg-gray-400 flex items-center px-5 py-5 my-auto rounded-xl '>
                 <AiFillTag className='rounded-xl text-blue-950'/>
               </div>
-              <div >
+              <div data-aos="fade-down">
                 <h2 className='font-bold max-w-xl text-start'>Smile for every budget</h2>
                 <p>All chairs are budget friendly</p>
               </div>
@@ -108,7 +108,7 @@ function Home() {
               <div className=' shadow-lg border-4 border-white bg-gray-400 flex items-center px-5 py-5 my-auto rounded-xl '>
                 <FaWallet className='text-blue-950' />
               </div>
-              <div>
+              <div data-aos="fade-up">
                 <h2 className=' font-bold max-w-xl text-start'>Best price Guarantee</h2>
                 <p>The best price you can get </p>
               </div>
@@ -117,7 +117,7 @@ function Home() {
               <div className=' bg-gray-400 flex items-center px-5 py-5 my-auto shadow-lg border-4 border-white rounded-xl '>
                 <MdSettingsSuggest className='text-blue-950'/>
               </div>
-              <div>
+              <div data-aos="fade-up">
                 <h2 className='font-bold max-w-xl text-start'>Support 24/7</h2>
                 <p>Customer care service always available</p>
               </div>
@@ -125,7 +125,7 @@ function Home() {
 
             </div>
           </div>
-          <div data-aos="fade-down" className='flex justify-evenly mt-20'>
+          <div className='flex justify-evenly mt-20'>
           <div className='grid justify-start pl-4'>
             <div className='w-20 m-auto flex justify-center rounded-full p-5 bg-gray-400'>
               <BsTruck className='w-10 h-10'/></div>
@@ -151,7 +151,7 @@ function Home() {
         </section>
         <h1 className='text-center mt-10 font-bold text-xl p-3'>Best Selling Products</h1>
         <section data-aos-once="true" id='products1'>
-          <div data-aos="fade-up" className='grid xl:grid-cols-4 md:grid-cols-2 lg:grid-cols-3 justify-evenly mx-auto'>
+          <div data-aos="fade-down"  className='grid xl:grid-cols-4 md:grid-cols-2 lg:grid-cols-3 justify-evenly mx-auto'>
           <div  className='inline-block text-center'>
           <div className='mt-5 mb-3 ml-5 min-h-100 border rounded-lg shadow-lg' style={{ display: 'inline-block' }}>
             <Image src={'/img1.jpg'} width={300} height={300} className='block ' style={{ objectFit: 'fill', width: '300px', height: '15rem' }}/>
@@ -302,7 +302,7 @@ function Home() {
          <button className=' bg-blue-950 text-white mx-a mt-3 font-bold px-40  py-3 rounded-3xl inline-block'>See More</button>
            <h2 className='mt-7 font-bold text-2xl'>Your Favourites</h2>
          </div>
-         <div  data-aos="fade-down" id='product2' className='grid xl:grid-cols-4 md:grid-cols-2 lg:grid-cols-3 justify-evenly mx-auto'>
+         <div data-aos="fade-up"  id='product2' className='grid xl:grid-cols-4 md:grid-cols-2 lg:grid-cols-3 justify-evenly mx-auto'>
           <div className='inline-block text-center'>
           <div className='mt-5 mb-3 ml-5 min-h-100 border rounded-lg shadow-lg' style={{ display: 'inline-block' }}>
             <Image src={'/img10.jpg'} width={300} height={100} className='block ' style={{ objectFit: 'fill', width: '300px', height: '15rem' }}/>
@@ -492,7 +492,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div data-aos="fade-down" className='md:justify-evenly items-center'>
+          <div className='md:justify-evenly items-center'>
             <div className='text-center mt-5 mb-5'>
             <Testimonials />
             </div>
@@ -565,25 +565,25 @@ function Home() {
           <div data-aos="fade-left" className='grid justify-center gap-5 md:flex md:justify-evenly mt-8'>
             <div>
               <h1 className='font-bold text-lg'>Keep in touch</h1>
-              <p className='max-w-lg pt-3'>Transform your living space into a stunning sanctuary with our exquisite range of furniture pieces. Shop now and elevate your home!</p>
-              <p className='max-w-lg pt-3'>Experience the perfect blend of form and function with our premium quality furniture collection. Find the pieces that suit your style today!</p>
+              <p className=' max-w-sm md:max-w-lg pt-3'>Transform your living space into a stunning sanctuary with our exquisite range of furniture pieces. Shop now and elevate your home!</p>
+              <p className=' max-w-sm md:max-w-lg pt-3'>Experience the perfect blend of form and function with our premium quality furniture collection. Find the pieces that suit your style today!</p>
             </div>
-            <form className='grid justify-start gap-5 mb-5'>
+            <form className='grid justify-start gap-5 mb-5 m-auto'>
               <label className='flex gap-5'>
-              <input type="text" placeholder='Full Name' className=' bg-gray-300 border px-5 py-2.5 rounded-3xl placeholder-blue-950' />
-              <input type="text" placeholder='Email Address' className=' bg-gray-300 border rounded-3xl px-5 py-2.5 placeholder-blue-950' />
+              <input type="text" placeholder='Full Name' className=' bg-gray-300 border md:px-5 md:py-2.5 rounded-3xl placeholder-blue-950' />
+              <input type="text" placeholder='Email Address' className=' bg-gray-300 border rounded-3xl md:px-5 md:py-2.5 placeholder-blue-950' />
               </label>
               <label htmlFor="">
-                <textarea cols="51" rows="5" className=' bg-gray-300 border rounded-xl pr-20 p-2 placeholder-blue-950' placeholder='Your Message'></textarea>
+                <textarea cols="51" rows="5" className=' bg-gray-300 border rounded-xl md:pr-20 md:p-2 placeholder-blue-950' placeholder='Your Message'></textarea>
               </label>
               <button className='flex bg-blue-950 text-white font-bold px-4 py-3 mr-auto rounded-3xl '>Send Message</button>
             </form>
           </div>
-          <div data-aos="fade-up" className='flex mt-16'>
-            <div class="absolute z-2 bg-blue-950 rounded-xl my-20" style={{left:'10%', gridArea: 'overlap', height: '500px', width: '80%'}}>
-              <div className='xl:flex text-white text-center grid gap-3 grid-cols-2 tracking-widest mt-40'>
+          <div className='flex mt-16'>
+            <div class="absolute z-2 bg-blue-950 rounded-xl my-20 " style={{left:'10%', gridArea: 'overlap', height: '800px', width: '80%'}}>
+              <div className=' xl:flex xl:justify-center text-white text-center grid md:gap-3 justify-center gap-2 md:grid-cols-2 tracking-widest mt-40'>
                 <div className='ml-5'>
-                  <h1 className='xl:py-3 font-bold text-2xl text-start '>SheddyFurniture</h1>
+                  <h1 className='xl:py-3 font-bold text-2xl md:text-start '>SheddyFurniture</h1>
                   <p className=' py-3 max-w-sm text-start'>Discover the perfect blend of style and functionality with our exquisite collection of furniture pieces. Elevate your living space today.?</p>
                 </div>
                 <div>
@@ -595,7 +595,7 @@ function Home() {
                     <li className='xl:p-1'>Contact</li>
                   </ul>
                 </div>
-                <div className='grid justify-start ml-5 text-start'>
+                <div className='md:grid m-2 md:justify-start md:ml-5 md:text-start'>
                   <h1 className='font-bold text-xl py-3'>Support</h1>
                   <ul className=''>
                     <li className='xl:p-1'>Our Team</li>
