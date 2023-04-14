@@ -299,7 +299,7 @@ function Home() {
           </div>
           </div>
          <div className='text-center py-10'>
-         <button className=' bg-blue-950 text-white mx-a mt-3 font-bold px-40  py-3 rounded-3xl inline-block'>See More</button>
+         <button className=' bg-blue-950 text-white mx-a mt-3 font-bold px-40  py-3 rounded-3xl flex justify-center m-auto'>See More</button>
            <h2 className='mt-7 font-bold text-2xl'>Your Favourites</h2>
          </div>
          <div data-aos="fade-up"  id='product2' className='grid xl:grid-cols-4 md:grid-cols-2 lg:grid-cols-3 justify-evenly mx-auto'>
@@ -460,7 +460,7 @@ function Home() {
          {/* Blog Entries */}
         <section id='blogs'>
           <div data-aos="fade-down" className=' text-center mt-10'>
-             <button className=' bg-blue-950 text-white font-bold px-40 py-3 rounded-3xl inline-block'>See More</button>
+             <button className=' bg-blue-950 text-white font-bold px-40 py-3 rounded-3xl flex justify-center m-auto'>See More</button>
              <h1 className='p-6 font-bold text-2xl'>Blog Entries</h1>
             <div className='flex justify-center'>
             <p className=' max-w-xl'>Discover the perfect blend of style and functionality with our exquisite collection of furniture pieces. Elevate your living space today.</p>
@@ -563,24 +563,24 @@ function Home() {
             <p className='max-w-lg m-5'>Our team of furniture experts are here to assist you. Chat with us today and let us help you find your perfect piece!</p>
           </div>
           <div data-aos="fade-left" className='grid justify-center gap-5 md:flex md:justify-evenly mt-8'>
-            <div>
+            <div className='grid justify-center'>
               <h1 className='font-bold text-lg'>Keep in touch</h1>
               <p className=' max-w-sm md:max-w-lg pt-3'>Transform your living space into a stunning sanctuary with our exquisite range of furniture pieces. Shop now and elevate your home!</p>
               <p className=' max-w-sm md:max-w-lg pt-3'>Experience the perfect blend of form and function with our premium quality furniture collection. Find the pieces that suit your style today!</p>
             </div>
-            <form className='grid justify-start gap-5 mb-5'>
-              <label className='flex gap-5'>
-              <input type="text" placeholder='Full Name' className=' bg-gray-300 border md:px-5 md:py-2.5 rounded-3xl placeholder-blue-950' />
-              <input type="text" placeholder='Email Address' className=' bg-gray-300 border rounded-3xl md:px-5 md:py-2.5 placeholder-blue-950' />
+            <form className='grid justify-center m-auto gap-5 mb-5'>
+              <label className=' grid justify-start md:flex gap-5'>
+              <input type="text" placeholder='Full Name' className=' bg-gray-300 m-auto border md:px-5 md:py-2.5 rounded-3xl placeholder-blue-950' />
+              <input type="text" placeholder='Email Address' className=' m-auto bg-gray-300 border rounded-3xl md:px-5 md:py-2.5 placeholder-blue-950' />
               </label>
-              <label htmlFor="">
-                <textarea cols="51" rows="5" className=' bg-gray-300 border rounded-xl md:pr-20 md:p-2 placeholder-blue-950' placeholder='Your Message'></textarea>
+              <label  className='grid' htmlFor="">
+                <textarea cols="51" rows="5" className=' md:auto bg-gray-300 border rounded-xl md:pr-20 md:p-2 placeholder-blue-950' placeholder='Your Message'></textarea>
               </label>
-              <button className='flex bg-blue-950 text-white font-bold px-4 py-3 mr-auto rounded-3xl '>Send Message</button>
+              <button className='flex justify-center m-auto bg-blue-950 text-white font-bold px-4 py-3 mr-auto rounded-3xl '>Send Message</button>
             </form>
           </div>
           <div className='flex mt-16'>
-            <div class="absolute z-2 bg-blue-950 rounded-xl my-20 " style={{left:'10%', gridArea: 'overlap', height: '800px', width: '80%'}}>
+            <div class="absolute z-2 bg-blue-950 rounded-xl my-20 " style={{left:'10%', gridArea: 'overlap', height: '850px', width: '80%'}}>
               <div className=' xl:flex xl:justify-center text-white text-center grid md:gap-3 justify-center gap-2 md:grid-cols-2 tracking-widest mt-40'>
                 <div className='ml-5'>
                   <h1 className='xl:py-3 font-bold text-2xl md:text-start '>SheddyFurniture</h1>
@@ -616,7 +616,7 @@ function Home() {
             </div>
             <div class="grid justify-center relative  mx-auto bg-white rounded-xl " style={{ gridArea: 'overlap', height: '200px', width: '50%'}}>
               <h1 className='text-center font-bold md:text-xl lg:text-3xl max-w-xl'>Subscribe For Any News Updates From SheddyFurniture</h1>
-              <input type="text" className=' border-b-4 mb-4 mx-7 border-blue-950 placeholder-blue-950 placeholder' placeholder='Enter your Email'/>
+              <input type="text" className=' border-b-4 mb-4 mx-20 md:mx-10 border-blue-950 placeholder-blue-950 placeholder' placeholder='Enter your Email'/>
               <button className=' bg-blue-950 px-5 mb-2 text-white font-bold rounded-3xl mx-auto'>Subscribe</button>
               </div>
           </div>
