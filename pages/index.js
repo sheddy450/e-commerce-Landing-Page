@@ -125,7 +125,7 @@ function Home() {
 
             </div>
           </div>
-          <div className='flex justify-evenly mt-20'>
+          <div className='grid text-center gap-3 justify-center lg:flex lg:justify-evenly mt-20'>
           <div className='grid justify-start pl-4'>
             <div className='w-20 m-auto flex justify-center rounded-full p-5 bg-gray-400'>
               <BsTruck className='w-10 h-10'/></div>
@@ -133,14 +133,14 @@ function Home() {
            <p className=' text-center '>We have fast Delivery service that gets to you in no time.</p>
           < a href="#" className=' underline text-center font-bold p-2'>Read Me</a>
           </div>
-          <div className='grid justify-start pl-4'>
+          <div className='grid  lg:pl-4'>
             <div className='w-20 m-auto flex justify-center rounded-full p-5  bg-gray-400'>
               <IoWalletOutline className=' color-white  w-10 h-10 '/></div>
             <h1 className='font-bold p-2 text-xl text-center'>Secure Payment</h1>
            <p className=' text-center '>Our payments policies are verified and therefore accountable</p>
           < a href="#" className=' underline text-center font-bold p-2'>Read Me</a>
           </div>
-          <div className=' grid justify-start pl-4'>
+          <div className=' grid lg:pl-4'>
             <div className='w-20 m-auto rounded-full p-5 bg-gray-400'>
               <CgArrowLeftR className=' w-10 h-10'/></div>
             <h1 className='font-bold p-2 text-xl text-center'>14 days return</h1>
@@ -568,7 +568,7 @@ function Home() {
               <p className=' max-w-sm md:max-w-lg pt-3'>Transform your living space into a stunning sanctuary with our exquisite range of furniture pieces. Shop now and elevate your home!</p>
               <p className=' max-w-sm md:max-w-lg pt-3'>Experience the perfect blend of form and function with our premium quality furniture collection. Find the pieces that suit your style today!</p>
             </div>
-            <form className='grid justify-start gap-5 mb-5 m-auto'>
+            <form className='grid justify-start gap-5 mb-5'>
               <label className='flex gap-5'>
               <input type="text" placeholder='Full Name' className=' bg-gray-300 border md:px-5 md:py-2.5 rounded-3xl placeholder-blue-950' />
               <input type="text" placeholder='Email Address' className=' bg-gray-300 border rounded-3xl md:px-5 md:py-2.5 placeholder-blue-950' />
